@@ -1,0 +1,16 @@
+{
+  "name": "indexnow-nodejs-wrapper",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "repository": "https://github.com/NachoSEO/indexer",
+  "author": "Nacho Mascort <nacho.mascort@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "indexURLs": "node src/index-urls.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}
